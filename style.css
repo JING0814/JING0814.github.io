@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: darkcyan;
+    height: 80px;
+    width: 100%;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header li {
+    display: inline-block;
+    margin-right: 4vw;
+    line-height: 60px;
+}
+
+header ul {
+    position: absolute;
+    right: 5vw;
+    top: 0;
+}
+
+h1 {
+    color: white;
+    position: absolute;
+    left: 120px;
+    top: 0;
+    line-height: 80px;
+}
+
+main {
+    background-color: cadetblue;
+}
+
+.S h2 {
+    color: white;
+    padding: 30px;
+}
+
+li {
+    color: azure;
+    padding: 10px 0 10px 20px;
+}
+
+.a {
+    display: flex;
+}
+
+.a img {
+    width: 50%;
+}
+
+.infoA {
+    flex: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.infoA h2{
+    color:darkcyan;
+    font-size: 40px;
+}
+.b{
+    display: flex;
+}
+.b img{
+    width: 50%;
+}
+.infoB{
+    flex: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.infoB h2{
+    color: darkcyan;
+    font-size: 40px;
+}
+.c{
+    display: flex;
+}
+.c img{
+    width: 50%;
+}
+.infoC{
+    flex: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.infoC h2{
+    color: darkcyan;
+    font-size: 40px;
+}
