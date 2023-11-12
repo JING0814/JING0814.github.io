@@ -114,6 +114,14 @@ li {
 .menu:hover {
     text-decoration: underline;
 }
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
 /* 在小屏幕上顯示漢堡菜單 */
 @media (max-width: 768px) {
     header ul {
