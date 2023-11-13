@@ -108,6 +108,24 @@ li {
     color: darkcyan;
     font-size: 40px;
 }
+.d{
+        display: flex;
+    }
+.d img{
+        width: 50%;
+    }
+.infoD{
+        flex: 1;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+.infoD h2{
+        color: darkcyan;
+        font-size: 40px;
+}
 .menu{
     display: none;
 }
